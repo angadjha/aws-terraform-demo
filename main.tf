@@ -15,7 +15,7 @@ provider "aws" {
 
 # S3 Bucket
 resource "aws_s3_bucket" "lambda_bucket" {
-  bucket = "buckettfdemo"
+  bucket = "buckettfdemo2"
 }
 
 # Upload the ZIP file to S3
